@@ -1,0 +1,67 @@
+/* Summernote 简化版CSS */
+.note-editor {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.note-editor .note-toolbar {
+    background: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 10px;
+}
+
+.note-editor .note-toolbar .btn-group {
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+
+.note-editor .note-toolbar .btn {
+    border: 1px solid #ccc;
+    background: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    margin: 0 1px;
+}
+
+.note-editor .note-toolbar .btn:hover {
+    background: #e9ecef;
+}
+
+.note-editor .note-editable {
+    padding: 15px;
+    min-height: 300px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.note-editor .note-statusbar {
+    background: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding: 6px 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+/* 简单的图标替代 */
+.note-icon-bold:before { content: "B"; font-weight: bold; }
+.note-icon-italic:before { content: "I"; font-style: italic; }
+.note-icon-underline:before { content: "U"; text-decoration: underline; }
+.note-icon-strikethrough:before { content: "S"; text-decoration: line-through; }
+.note-icon-unorderedlist:before { content: "•"; font-weight: bold; }
+.note-icon-orderedlist:before { content: "1."; }
+.note-icon-link:before { content: "🔗"; font-size: 12px; }
+.note-icon-picture:before { content: "🖼"; font-size: 12px; }
+.note-icon-table:before { content: "📊"; font-size: 12px; }
+.note-icon-video:before { content: "🎬"; font-size: 12px; }
+.note-icon-fullscreen:before { content: "⛶"; }
+.note-icon-code:before { content: "</>"; font-family: monospace; }
+.note-icon-eraser:before { content: "✕"; }
+
+.note-btn-group .note-btn .note-icon-font {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    display: inline-block;
+    width: 16px;
+    text-align: center;
+}

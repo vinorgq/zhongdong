@@ -1,0 +1,58 @@
+/* Summernote 本地字体修复 */
+@font-face {
+  font-family: 'summernote';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/summernote.eot');
+  src: url('../fonts/summernote.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/summernote.woff2') format('woff2'),
+       url('../fonts/summernote.woff') format('woff'),
+       url('../fonts/summernote.ttf') format('truetype');
+}
+
+/* Summernote 基础样式 */
+.note-editor {
+  position: relative;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+}
+
+.note-editor .note-toolbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  padding: 8px 10px;
+}
+
+.note-editor .note-toolbar .note-btn-group {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.note-editor .note-toolbar .note-btn {
+  border: 1px solid #ced4da;
+  background: white;
+  padding: 0.375rem 0.75rem;
+  font-size: 14px;
+  color: #212529;
+  border-radius: 0.25rem;
+}
+
+.note-editor .note-toolbar .note-btn:hover {
+  background-color: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.note-editor .note-editable {
+  padding: 15px;
+  min-height: 300px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.note-editor .note-statusbar {
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+  padding: 6px 10px;
+  font-size: 12px;
+  color: #6c757d;
+}
